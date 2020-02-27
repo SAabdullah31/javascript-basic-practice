@@ -1,0 +1,13 @@
+var friendsAge =[19,20,23,21,15,22];
+console.log(friendsAge.length);
+friendsAge.push(45);
+friendsAge.push(50);
+console.log(friendsAge);
+console.log(friendsAge.length);
+friendsAge.pop();
+console.log(friendsAge);
+friendsAge.unshift(47);
+console.log(friendsAge);
+console.log(friendsAge.length);
+friendsAge.shift();
+console.log(friendsAge);
